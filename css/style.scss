@@ -1,0 +1,73 @@
+$test : red;
+body{
+  background:black;
+}
+img{
+  max-width: 100%;
+}
+.space{
+  letter-spacing: 6px;
+  font-weight: 300;
+}
+.half-one{
+  background: #6054ff;
+}
+.first-half{
+  margin-left:15%;
+  //border:1px solid  $test;
+  margin-top:30%;
+  margin-bottom:40%;
+  
+}
+.agency{
+  font-size: 2 rem;
+  background: red;
+}
+.par{
+  color: #fcfbfb;
+  font-weight: 300;
+  margin:0;
+  font-size: 20px;
+  margin-top:3%;
+}
+.start{
+  background: #fff;
+  color: black;
+  font-weight: bold;
+  padding: 8px 40px;
+  border: 0;
+  cursor: pointer;
+  border-radius: 6px;
+ //font-size: 2rem;
+}
+.sec{
+  background: url("img/hero-desktop.jpg")  ;
+  height: 700px;
+  position: relative;
+  background-size: cover;
+}
+#full {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background:rgb($color : #6054ff ,$alpha : 0.5);;
+}
+#soc{
+ height: 50px;
+ width: 200px;
+  font-size: 2rem;
+  padding: {
+    left: 4%;
+    top: 3%;
+  }
+  float: right;
+  position: absolute;
+  right: 0;
+  color: #fff;
+ // background:#6054ff ;
+}
+#soc i {
+  margin-left:6%;
+}

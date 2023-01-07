@@ -1,0 +1,202 @@
+body {
+  background: black;
+}
+
+img {
+  max-width: 100%;
+}
+*{
+    
+}
+.space {
+  letter-spacing: 6px;
+  font-weight: 300;
+}
+
+.half-one {
+  background: #6054ff;
+}
+
+.first-half {
+  margin-left: 15%;
+  margin-top: 30%;
+  margin-bottom: 40%;
+}
+
+.agency {
+  font-size: 2 rem;
+  background: red;
+}
+
+.par {
+  color: #fcfbfb;
+  font-weight: 300;
+  margin: 0;
+  font-size: 20px;
+  margin-top: 3%;
+}
+
+.start {
+  background: #fff;
+  color: black;
+  font-weight: bold;
+  padding: 8px 40px;
+  border: 0;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.sec {
+  background: url("img/hero-desktop.jpg");
+  height: 700px;
+  position: relative;
+  background-size: cover;
+  background-attachment:fixed;
+}
+
+#full {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(96, 84, 255, 0.5);
+}
+
+#soc {
+  height: 50px;
+  width: 200px;
+  font-size: 2rem;
+  padding-left: 4%;
+  padding-top: 3%;
+  float: right;
+  position: absolute;
+  right: 0;
+  color: #fff;
+}
+
+#soc i {
+  margin-left: 6%;
+  cursor:pointer;
+}
+#soc i:hover{
+    color:pink;
+}
+.about .ab1{
+    height:500px;
+    color:#fff;
+    background:#1d1d1b ;
+}
+.about .ab1 h1{
+    color:#5d52ed;
+}
+.about p{
+    line-height:2;
+}
+@media (min-width:980px){
+    .about #firstP{
+        margin-top:4rem;
+    }
+    .about{
+        position:relative;
+    }
+    .about #taxi{
+        position:absolute;
+        width:50%;
+        left:47%;
+        top:17%;
+    }
+}
+.service{
+    overflow-y:scroll;
+}
+.service h3{
+    font-size:11rem;
+    text-align:center;
+    transition:all .5s ease;
+}
+.service h3:hover{
+    color:#5d52ed;
+    padding:1rem;
+}
+.portfolio{
+    
+}
+.portfolio img{
+    transition:all .3s ease;
+    justify-content:center;
+    margin-left:8%;
+}
+.portfolio img:hover{
+    opacity:0.5;
+    padding:1.3rem;
+}
+.team{
+    margin-top:60px;
+    
+}
+.team .bod{
+    background:#5d52ed;
+}
+.team .soc-team{
+    font-size:2rem;
+    margin-left:0.5rem;
+    margin-top:1.5rem;
+    transition:all .4s ease;
+}
+.team .soc-team:hover{
+    cursor:pointer;
+    color:black;
+}
+.line{
+    height:.5px ;
+    background:black;
+    width:100%;
+    display:block;
+    margin-top:5rem;
+}
+footer .d{
+    border:0;
+    border-bottom:1px solid #444;
+    padding-bottom:3%;
+    margin-top:5%;
+}
+.sc{
+    background:#5d52ed;
+    text-align:center;
+}
+.sc ul{
+    margin-top:15%;
+}
+.sc ul li{
+    list-style:none;
+    font-size:1.4rem;
+    color:#fff;
+    line-height:3.9;
+    cursor:pointer;
+}
+.sc .s2{
+    margin-top:18%;
+    color:#fff;
+    font-size:1.5rem;
+    text-align:left;
+}
+.s2 aside{
+    line-height:3.4;
+    padding-left:5%
+}
+.s2 span{
+    margin-left:3%;
+}
+#keep{
+    color:#5d52ed;
+}
+#sub{
+    background:#5d52ed;
+    color:#fff;
+}
+.ft{
+    background:black;
+    width:101.5%;
+}
+/*# sourceMappingURL=style.css.map */
